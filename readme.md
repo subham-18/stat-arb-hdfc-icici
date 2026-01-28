@@ -96,27 +96,6 @@ for long-term capital deployment.
 
 ---
 
-## Project Structure
-
-src/
-├── download.py
-├── ols_spread.py
-├── adf_test.py
-├── rolling_adf.py
-├── visualize_stationarity.py
-├── visualize_pnl.py
-│
-├── strategy/
-│ └── mean_reversion.py
-│
-├── backtest/
-│ ├── backtest.py
-│ └── capital_scaling.py
-│
-├── live/
-│ ├── daily_signal.py
-│ └── log_daily_signal.py
-
 ## How to Run
 
 - python src/download.py
